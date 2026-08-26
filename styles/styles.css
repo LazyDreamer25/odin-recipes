@@ -1,0 +1,51 @@
+/*global styles*/
+body{
+    background-color: lightsteelblue;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 10px; /*hard coded value find alternative*/
+}
+.super-heading.title-heading{
+    font-size: 105px;
+    color: white;
+}
+.heading, .meal, .title-heading, .recipes{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffe600;
+    text-align: left;
+    font-size: 45px;
+    font-weight: 300;
+}
+h1.meal{
+    font-size: 75px;
+    font-variant-caps: all-petite-caps;
+    text-decoration: underline;  
+}
+.meal-img{
+    border: 4px solid white;
+}
+.small-text{
+    font-size: smaller;
+    color: black;
+}
+.prep{
+     /*how to space list items*/
+}
+hr{
+    background-color: yellow;
+    height: 1px;
+    border: none;
+}
+.container{
+    width: 800px;
+}
+
+
+/*index.html specific styles*/
+.recipe-list{
+    list-style-type: none;
+}
+ul .recipes a{
+    text-decoration: none;
+    color: yellow;
+}
